@@ -1,0 +1,857 @@
+/* Created by igraph 0.9.6 */
+digraph {
+  0 [
+    label=78
+    id=78
+    length=1
+    width=0.5
+    classification=bike
+    timestamp=153600
+    frameid=4137
+    x=-24.948059
+    y=-2.123591
+    vx=-0.006287
+    vy=-0.007962
+    vel=0.0101449402659651
+    yaw=-2.239204
+    projection_identity="-104129: 1.0"
+  ];
+  1 [
+    label=80
+    id=80
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=-14.636663
+    y=-37.101017
+    vx=-0.002676
+    vy=-0.000443
+    vel=0.00271242050574759
+    yaw=0.666476
+    projection_identity="-103634: 1.0"
+  ];
+  2 [
+    label=88
+    id=88
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=-22.301695
+    y=-35.911205
+    vx=0
+    vy=0
+    vel=0
+    yaw=0.647795
+    projection_identity="-103632: 1.0"
+  ];
+  3 [
+    label=89
+    id=89
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=-18.99522
+    y=-36.997841
+    vx=0
+    vy=0
+    vel=0
+    yaw=0.560727
+    projection_identity="-103632: 1.0"
+  ];
+  4 [
+    label=90
+    id=90
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=-23.842651
+    y=-41.055592
+    vx=1.6e-05
+    vy=1.4e-05
+    vel=2.12602916254693e-05
+    yaw=0.701282
+    projection_identity="-103632: 1.0"
+  ];
+  5 [
+    label=98
+    id=98
+    length=1
+    width=0.5
+    classification=bike
+    timestamp=153600
+    frameid=4137
+    x=-16.002682
+    y=-42.746269
+    vx=1.169417
+    vy=0.857126
+    vel=1.44989692729001
+    yaw=0.632501
+    projection_identity="-103635: 1.0"
+  ];
+  6 [
+    label=99
+    id=99
+    length=1
+    width=0.5
+    classification=bike
+    timestamp=153600
+    frameid=4137
+    x=-32.113632
+    y=-47.034115
+    vx=0.477317
+    vy=0.314012
+    vel=0.571344952400036
+    yaw=0.656722
+    projection_identity="-103632: 1.0"
+  ];
+  7 [
+    label=100
+    id=100
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=20.78652
+    y=-16.907007
+    vx=-5.103981
+    vy=-0.073305
+    vel=5.10450738772959
+    yaw=-3.127231
+    projection_identity="-104118: 1.0"
+  ];
+  8 [
+    label=101
+    id=101
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=20.466032
+    y=-12.854523
+    vx=-5.240775
+    vy=0.379584
+    vel=5.25450346024065
+    yaw=3.06929
+    projection_identity="-104117: 0.008175005289345408, -104120: 0.015188955830090934, -103591: 0.9766360388805637"
+  ];
+  9 [
+    label=102
+    id=102
+    length=4.7
+    width=2.1
+    classification=car
+    timestamp=153600
+    frameid=4137
+    x=19.872419
+    y=-8.516667
+    vx=-4.295151
+    vy=1.377807
+    vel=4.51072879278393
+    yaw=2.831181
+    projection_identity="-104120: 0.05722652835867787, -104119: 0.0040948949552149436, -104121: 0.15561631493825565, -103592: 0.3825923381172342, -103591: 0.40046992363061723"
+  ];
+
+  8 -> 2 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=40.9515804393183
+    centerline_distance_origin=1.64308769032907
+    centerline_distance_target=0.911344552640464
+    probability=0.0151889558300909
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  8 -> 3 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=40.9515804393183
+    centerline_distance_origin=1.64308769032907
+    centerline_distance_target=-1.99706544051516
+    probability=0.0151889558300909
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  8 -> 4 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=40.9515804393183
+    centerline_distance_origin=1.64308769032907
+    centerline_distance_target=-2.15618639700836
+    probability=0.0151889558300909
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  8 -> 6 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=40.9515804393183
+    centerline_distance_origin=1.64308769032907
+    centerline_distance_target=-1.68797675421387
+    probability=0.0151889558300909
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  9 -> 2 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=39.1547322122975
+    centerline_distance_origin=-2.34949387046055
+    centerline_distance_target=0.911344552640464
+    probability=0.0572265283586779
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  9 -> 3 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=39.1547322122975
+    centerline_distance_origin=-2.34949387046055
+    centerline_distance_target=-1.99706544051516
+    probability=0.0572265283586779
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  9 -> 4 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=39.1547322122975
+    centerline_distance_origin=-2.34949387046055
+    centerline_distance_target=-2.15618639700836
+    probability=0.0572265283586779
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  9 -> 6 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=39.1547322122975
+    centerline_distance_origin=-2.34949387046055
+    centerline_distance_target=-1.68797675421387
+    probability=0.0572265283586779
+    from_lanelet=-104120
+    to_lanelet=-103632
+  ];
+  8 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=46.7706454862922
+    centerline_distance_origin=1.64308769032907
+    centerline_distance_target=1.33663301820914
+    probability=0.0151889558300909
+    from_lanelet=-104120
+    to_lanelet=-104129
+  ];
+  9 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=44.9737972592714
+    centerline_distance_origin=-2.34949387046055
+    centerline_distance_target=1.33663301820914
+    probability=0.0572265283586779
+    from_lanelet=-104120
+    to_lanelet=-104129
+  ];
+  7 -> 2 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=28.9714925311551
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=0.911344552640464
+    probability=1
+    from_lanelet=-104118
+    to_lanelet=-103632
+  ];
+  7 -> 3 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=28.9714925311551
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-104118
+    to_lanelet=-103632
+  ];
+  7 -> 4 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=28.9714925311551
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=-2.15618639700836
+    probability=1
+    from_lanelet=-104118
+    to_lanelet=-103632
+  ];
+  7 -> 6 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=28.9714925311551
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=-1.68797675421387
+    probability=1
+    from_lanelet=-104118
+    to_lanelet=-103632
+  ];
+  7 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=10.0096947087334
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-104118
+    to_lanelet=-103591
+  ];
+  7 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=10.0096947087334
+    centerline_distance_origin=0.830153365499533
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-104118
+    to_lanelet=-103591
+  ];
+  8 -> 7 [
+    label=lat
+    style=dashed
+    type=lateral
+    path_distance=-1.32230232917248
+    centerline_distance_origin=0.551909942027598
+    centerline_distance_target=0.830153365499533
+    probability=0.00817500528934541
+    from_lanelet=-104117
+    to_lanelet=-104118
+  ];
+  5 -> 2 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=0.911344552640464
+    probability=1
+    from_lanelet=-103635
+    to_lanelet=-103632
+  ];
+  5 -> 3 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-103635
+    to_lanelet=-103632
+  ];
+  5 -> 4 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=-2.15618639700836
+    probability=1
+    from_lanelet=-103635
+    to_lanelet=-103632
+  ];
+  5 -> 6 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=-1.68797675421387
+    probability=1
+    from_lanelet=-103635
+    to_lanelet=-103632
+  ];
+  5 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103635
+    to_lanelet=-103591
+  ];
+  5 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=21.4845812444377
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103635
+    to_lanelet=-103591
+  ];
+  5 -> 1 [
+    label=lat
+    style=dashed
+    type=lateral
+    path_distance=7.43939089099757
+    centerline_distance_origin=0.547462585935843
+    centerline_distance_target=1.0846419183267
+    probability=1
+    from_lanelet=-103635
+    to_lanelet=-103634
+  ];
+  1 -> 2 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=0.911344552640464
+    probability=1
+    from_lanelet=-103634
+    to_lanelet=-103632
+  ];
+  1 -> 3 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-103634
+    to_lanelet=-103632
+  ];
+  1 -> 4 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=-2.15618639700836
+    probability=1
+    from_lanelet=-103634
+    to_lanelet=-103632
+  ];
+  1 -> 6 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=-1.68797675421387
+    probability=1
+    from_lanelet=-103634
+    to_lanelet=-103632
+  ];
+  1 -> 5 [
+    label=lat
+    style=dashed
+    type=lateral
+    path_distance=-4.43308572626022
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=0.547462585935843
+    probability=1
+    from_lanelet=-103634
+    to_lanelet=-103635
+  ];
+  1 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103634
+    to_lanelet=-103591
+  ];
+  1 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=13.9118626372602
+    centerline_distance_origin=1.0846419183267
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103634
+    to_lanelet=-103591
+  ];
+  2 -> 3 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=1.91172854606336
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  4 -> 2 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=4.40789256591532
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=0.911344552640464
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  4 -> 3 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=6.31962111197868
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  6 -> 2 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=14.6026286436313
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=0.911344552640464
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  6 -> 3 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=16.5143571896947
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=-1.99706544051516
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  6 -> 4 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=10.194736077716
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=-2.15618639700836
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103632
+  ];
+  2 -> 5 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=14.6497562458971
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=0.547462585935843
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103635
+  ];
+  3 -> 5 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=12.7380276998338
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=0.547462585935843
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103635
+  ];
+  4 -> 5 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=19.0576488118125
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=0.547462585935843
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103635
+  ];
+  6 -> 5 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=29.2523848895285
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=0.547462585935843
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103635
+  ];
+  2 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=51.6802437887111
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=1.33663301820914
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104129
+  ];
+  3 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=49.7685152426477
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=1.33663301820914
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104129
+  ];
+  4 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=56.0881363546264
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=1.33663301820914
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104129
+  ];
+  6 -> 0 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=66.2828724323424
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=1.33663301820914
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104129
+  ];
+  2 -> 7 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=20.8410161863653
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=0.830153365499533
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104118
+  ];
+  3 -> 7 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=18.929287640302
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=0.830153365499533
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104118
+  ];
+  4 -> 7 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=25.2489087522806
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=0.830153365499533
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104118
+  ];
+  6 -> 7 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=35.4436448299967
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=0.830153365499533
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-104118
+  ];
+  2 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=6.23951754920754
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  2 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=6.23951754920754
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  3 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=4.32778900314418
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  3 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=4.32778900314418
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  4 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=10.6474101151229
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  4 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=10.6474101151229
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  6 -> 8 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=20.8421461928389
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=-2.00187593565667
+    probability=0.976636038880564
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  6 -> 9 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=20.8421461928389
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=1.85122025566466
+    probability=0.400469923630617
+    from_lanelet=-103632
+    to_lanelet=-103591
+  ];
+  2 -> 1 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=14.6497562458971
+    centerline_distance_origin=0.911344552640464
+    centerline_distance_target=1.0846419183267
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103634
+  ];
+  3 -> 1 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=12.7380276998338
+    centerline_distance_origin=-1.99706544051516
+    centerline_distance_target=1.0846419183267
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103634
+  ];
+  4 -> 1 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=19.0576488118125
+    centerline_distance_origin=-2.15618639700836
+    centerline_distance_target=1.0846419183267
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103634
+  ];
+  6 -> 1 [
+    label=int
+    style=dotted
+    type=intersecting
+    path_distance=29.2523848895285
+    centerline_distance_origin=-1.68797675421387
+    centerline_distance_target=1.0846419183267
+    probability=1
+    from_lanelet=-103632
+    to_lanelet=-103634
+  ];
+  9 -> 8 [
+    label=lat
+    style=dashed
+    type=lateral
+    path_distance=-3.88017070499951
+    centerline_distance_origin=-1.46040319643556
+    centerline_distance_target=-2.00187593565667
+    probability=0.373653465604869
+    from_lanelet=-103592
+    to_lanelet=-103591
+  ];
+  8 -> 9 [
+    label=lon
+    style=None
+    type=longitudinal
+    path_distance=2.04015117389569
+    centerline_distance_origin=-2.00187593565667
+    centerline_distance_target=1.85122025566466
+    probability=0.391113359905408
+    from_lanelet=-103591
+    to_lanelet=-103591
+  ];
+}
